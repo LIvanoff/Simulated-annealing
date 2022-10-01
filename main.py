@@ -45,11 +45,12 @@ for i in range(11):
     if i !=10:
         delta_y = y[i + 1] - y[i]
         T = T / (i + 1)
-        if delta_y > 0 and (random.randint(1, 100)) < (100 * math.e ** (-delta_y / T)):
-            target_x = x[i + 1]
-            last_x.append(x[i + 1])
-            target_y = y[i + 1]
-            last_y.append(y[i + 1])
+        if delta_y > 0:
+            if (random.randint(1, 100)) < (100 * math.e ** (-delta_y / T)):
+                target_x = x[i + 1]
+                last_x.append(x[i + 1])
+                target_y = y[i + 1]
+                last_y.append(y[i + 1])
         else:
             target_x = x[i + 1]
             last_x.append(x[i + 1])
