@@ -5,4 +5,4 @@
 
 
 В примере представленно решение задачи минимизации интерполированной функции
-![2022-10-01_16-17-29](https://user-images.githubusercontent.com/39859999/193411416-6ca17b0d-b2eb-4e53-8c9b-db926a0ae5df.png)
+![2022-10-01_22-21-29](https://user-images.githubusercontent.com/39859999/193425056-f85e7dd9-ec91-4270-bf8e-8fcebbea28c3.png)
